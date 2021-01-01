@@ -5,11 +5,11 @@ Simple-PHP-MySQL-library
 Simple library app built using PHP and MySQL. 
 
 ## ERD
-[ERD](https://github.com/MohAyman3600/Simple-PHP-MySQL-library/blob/master/erd.png)
+![ERD](https://github.com/MohAyman3600/Simple-PHP-MySQL-library/blob/master/erd.png)
 
 ## Authors
 
-![@Mohamed Ayman](https://www.linkedin.com/in/mohayman3600/)
+[@Mohamed Ayman](https://www.linkedin.com/in/mohayman3600/)
 
 
 ## Version History
