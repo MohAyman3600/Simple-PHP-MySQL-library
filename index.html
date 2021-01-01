@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+	 crossorigin="anonymous">
+
+	<title>University</title>
+
+	<style>
+		body,
+		html {
+			height: 100%;
+		}
+
+		.bg {
+			/* The image used */
+			background-image: url("bg.jpg");
+			height: 100%;
+
+			/* Center and scale the image nicely */
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		.major {
+			height: 100%;
+			width: 100%;
+		}
+
+		.panel {
+			width: 1000px;
+			height: 500px;
+			background-color: rgba(0, 0, 0, 0.6);
+			border-radius: 30px;
+			/* -webkit-filter: blur(5px);
+			-moz-filter: blur(5px);
+			-o-filter: blur(5px);
+			-ms-filter: blur(5px);
+			filter: blur(10px); */
+			margin: auto;
+			overflow: hidden;
+		}
+
+		a {
+			color: #000;
+			display: block;
+		}
+
+		button {
+			margin: 10px 0;
+			line-height: 34px;
+			position: relative;
+			cursor: pointer;
+			user-select: none;
+			outline: none !important;
+			width: 100%;
+		}
+
+		button:active {
+
+			outline: none;
+		}
+
+		button.ribbon {
+
+			outline: none;
+			outline-color: transparent;
+		}
+
+		button.ribbon:before,
+		button.ribbon:after {
+			top: 5px;
+			z-index: -10;
+		}
+
+		button.ribbon:before {
+			border-color: #53dab6 #53dab6 #53dab6 transparent;
+			left: -25px;
+			border-width: 17px;
+		}
+
+		button.ribbon:after {
+			border-color: #53dab6 transparent #53dab6 #53dab6;
+			right: -25px;
+			border-width: 17px;
+		}
+
+		button:before,
+		button:after {
+			content: '';
+			position: absolute;
+			height: 0;
+			width: 0;
+			border-style: solid;
+			border-width: 0;
+			outline: none;
+		}
+
+		button.btn-default:before {
+			border-color: #757575 #757575 #757575 transparent;
+		}
+
+		button.btn-default:after {
+			border-color: #757575 transparent #757575 #757575;
+		}
+
+
+
+		button.btn-primary:before {
+			border-color: #2e6da4 #2e6da4 #2e6da4 transparent;
+		}
+
+		button.btn-primary:after {
+			border-color: #2e6da4 transparent #2e6da4 #2e6da4;
+		}
+
+
+		button.btn-success:before {
+			border-color: #398439 #398439 #398439 transparent;
+		}
+
+		button.btn-success:after {
+			border-color: #398439 transparent #398439 #398439;
+		}
+
+
+		button.btn-info:before {
+			border-color: #269abc #269abc #269abc transparent;
+		}
+
+		button.btn-info:after {
+			border-color: #269abc transparent #269abc #269abc;
+		}
+
+
+		button.btn-warning:before {
+			border-color: #d58512 #d58512 #d58512 transparent;
+		}
+
+		button.btn-warning:after {
+			border-color: #d58512 transparent #d58512 #d58512;
+		}
+
+
+		button.btn-danger:before {
+			border-color: #ac2925 #ac2925 #ac2925 transparent;
+		}
+
+		button.btn-danger:after {
+			border-color: #ac2925 transparent #ac2925 #ac2925;
+		}
+
+		.cmargin {
+			margin-top: 80px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="bg">
+		<div class="row major">
+			<div class="panel col-9">
+				<div class="row cmargin">
+					<div class="col-1"></div>
+					<div class="col-md-4">
+						<!-- Standard button -->
+						<a href="book_register.html">
+							<button type="button" class="btn btn-info ribbon">
+								Book Register
+							</button>
+						</a>
+
+						<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+						<a href="book_retrive.html">
+							<button type="button" class="btn btn-primary ribbon">
+								Book Retrieve
+							</button>
+						</a>
+
+						<!-- Indicates a successful or positive action -->
+						<a href="buy_book.html">
+							<button type="button" class="btn btn-success ribbon">
+								Buy Book
+							</button>
+						</a>
+
+						<!-- Indicates caution should be taken with this action -->
+						<a href="view_books.html">
+							<button type="button" class="btn btn-warning ribbon">
+								View Books
+							</button>
+						</a>
+
+						<!-- Indicates a dangerous or potentially negative action -->
+						<a href="view_borrowed_books.html">
+							<button type="button" class="btn btn-danger ribbon">
+								view Borrowed Books
+							</button>
+						</a>
+						<a href="update_payment.html">
+							<button type="button" class="btn btn-danger ribbon">
+								Update Penalty
+							</button>
+						</a>I
+
+						<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+					</div>
+					<div class="col-2"></div>
+					<div class="col-md-4">
+						<!-- Standard button -->
+						<a href="advisor.html">
+							<button type="button" class="btn btn-info ribbon">
+								Student Advisor
+							</button>
+						</a>
+
+						<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+						<a href="course_register.html">
+							<button type="button" class="btn btn-primary ribbon">
+								Availabe Courses
+							</button>
+						</a>
+					</div>
+					<div class="col-1"></div>
+				</div>
+			</div>
+			<!-- Optional JavaScript -->
+			<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			 crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+			 crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+			 crossorigin="anonymous"></script>
+</body>
+
+</html>
